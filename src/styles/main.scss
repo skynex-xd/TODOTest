@@ -1,0 +1,17 @@
+@import './variables.scss';
+
+h1, h2, h3, h4, h5, h6 {
+  color: $header-text-color;
+  font-family: $font-family-primary;
+  font-weight: $font-weight-bold;
+}
+
+p, a, span, div {
+  font-family: $font-family-primary;
+  color: $text-color;
+}
+
+.v-list-item__content{
+  width: 100%;
+  overflow: visible;
+}
